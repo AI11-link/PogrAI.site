@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<licenses>
+    <library>
+        <name>Flutter</name>
+        <idIcon>lib_flutter</idIcon>
+        <license>The 3-Clause BSD License</license>
+        <officialSite>https://flutter.dev</officialSite>
+        <licenseLink>https://github.com/flutter/flutter/blob/master/LICENSE</licenseLink>
+    </library>
+    <library>
+        <name>Dart</name>
+        <idIcon>lib_dart</idIcon>
+        <license>The 3-Clause BSD License</license>
+        <officialSite>https://dart.dev</officialSite>
+        <licenseLink>https://github.com/dart-lang/sdk/blob/main/LICENSE</licenseLink>
+    </library>
+    <library>
+        <name>Flame</name>
+        <idIcon>lib_flame</idIcon>
+        <license>MIT License</license>
+        <officialSite>https://flame-engine.org</officialSite>
+        <licenseLink>https://github.com/flame-engine/flame/blob/main/LICENSE</licenseLink>
+    </library>
+</licenses>

@@ -1,37 +1,58 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>PogrAI - Coming Soon</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="favicon.ico" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-		<!-- Header -->
-			<header id="header">
-				<h1>AI11</h1>
-				<p>We are developing <strong>PogrAI</strong> - a revolutionary program for creating games and educational apps using artificial intelligence. Launching soon!</p>
-			</header>
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://x.com/AI11Link" target="_blank" class="icon brands fa-x"><span class="label">X</span></a></li>
-					<li><a href="https://www.facebook.com/profile.php?id=61568375371819" target="_blank" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="https://www.youtube.com/@AI11-link" target="_blank" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
-					<li><a href="https://github.com/ai11-link" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="https://www.instagram.com/ai11.link/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="https://www.linkedin.com/company/ai11link/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-					<li><a href="mailto:ok.ai11.link@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; 2025 AI11.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a>.</li>
-				</ul>
-			</footer>
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-		<!-- Scripts -->
-			<script src="assets/js/main.js"></script>
-	</body>
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+    <base href="/" />
+
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="PogrAI is an innovative app that allows users to create games with AI by describing rules in natural language, share them, and play them against both humans and AI."/>
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="pograi" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <title id="app-title">PogrAI</title>
+    <style>
+      html,
+      body {
+        min-width: 350px;
+        min-height: 500px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      #flutter_container {
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <script src="flutter_bootstrap.js" async></script>
+    <script>
+      window.addEventListener("popstate", function (event) {});
+    </script>
+  </body>
 </html>
